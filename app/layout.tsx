@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import Navigation from "@/components/Navigation";
+import ConversationalAI from "@/components/ConversationalAI";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -46,6 +48,11 @@ export default function RootLayout({
         <main style={{ paddingTop: '80px' }}>
           {children}
         </main>
+        <ConversationalAI />
+        <Script 
+          src="https://unpkg.com/@elevenlabs/convai-widget-embed" 
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
