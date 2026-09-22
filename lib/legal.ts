@@ -17,7 +17,7 @@ export const LEGAL = {
    * with a placeholder, because a wrong address is worse than a missing one —
    * the pages omit the block entirely until this is set.
    */
-  postalAddress: "",
+  postalAddress: "5425 NW 89th Ave, Sunrise, FL 33351",
 
   effective: "22 September 2026",
 
