@@ -42,6 +42,10 @@ export default function Websites() {
       a: "Because I build these efficiently and host a lot of them. A single booked job from a lead service like Angi costs an HVAC contractor around $542 — more than a year of this. I would rather charge a little to many businesses than a lot to a few.",
     },
     {
+      q: "Who will the charge come from?",
+      a: "Walters954 is the trading name of Dark Nimbus LLC. Your card statement and your receipts will say Dark Nimbus, so it is worth knowing that before it appears — it is the same business, not a duplicate charge.",
+    },
+    {
       q: "What do I actually get?",
       a: "A one-page site on your own domain: what you do, where you work, your hours, and a contact form that emails you. It loads fast on a phone, and it is built so Google and AI assistants can read what you do and where.",
     },
