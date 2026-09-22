@@ -43,8 +43,8 @@ export default function Contact() {
     {
       icon: '📧',
       title: 'Email',
-      value: 'warren.salesforce@gmail.com',
-      link: 'mailto:warren.salesforce@gmail.com'
+      value: 'warren@walters954.com',
+      link: 'mailto:warren@walters954.com'
     },
     {
       icon: '💼',

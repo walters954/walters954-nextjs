@@ -378,3 +378,126 @@ a:hover {
     margin: 0 auto 1.75rem;
     opacity: 0.85;
 }
+
+/* ---------------------------------------------------------------------------
+   Legal pages. Long prose read once, usually under mild duress — so a narrow
+   measure, generous leading, and a plain-English summary box at the top of
+   each so nobody has to read the whole thing to find the answer.
+   --------------------------------------------------------------------------- */
+
+.legal {
+    padding: 4rem 0 5rem;
+}
+
+.legal-inner {
+    max-width: 72ch;
+}
+
+.legal-title {
+    font-size: clamp(1.9rem, 4.5vw, 2.6rem);
+    letter-spacing: -0.025em;
+    margin: 0 0 0.4rem;
+}
+
+.legal-meta {
+    font-size: 0.9rem;
+    opacity: 0.55;
+    margin: 0 0 2rem;
+}
+
+.legal-summary {
+    background: var(--background-secondary);
+    border-left: 4px solid var(--primary-green);
+    padding: 1.25rem 1.4rem;
+    border-radius: 0 6px 6px 0;
+    font-size: 1.02rem;
+    line-height: 1.65;
+    margin-bottom: 2.5rem;
+}
+
+.legal h2 {
+    font-size: 1.2rem;
+    letter-spacing: -0.01em;
+    margin: 2.25rem 0 0.75rem;
+}
+
+.legal p,
+.legal li {
+    font-size: 1rem;
+    line-height: 1.75;
+    opacity: 0.88;
+}
+
+.legal p {
+    margin: 0 0 1rem;
+}
+
+.legal ul {
+    margin: 0 0 1.25rem;
+    padding-left: 1.3rem;
+    /* The global reset strips markers; prose lists need them back or the
+       items read as disconnected sentences. */
+    list-style: disc;
+}
+
+.legal li {
+    margin-bottom: 0.55rem;
+}
+
+.legal a {
+    color: var(--primary-green-dark);
+    text-decoration: underline;
+}
+
+.legal-nav {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.22);
+    font-size: 0.95rem;
+}
+
+/* --- footer --- */
+
+.site-footer {
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+    background: var(--background-secondary);
+    padding: 2.5rem 0;
+    margin-top: 4rem;
+}
+
+.site-footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.site-footer-name {
+    font-weight: 600;
+}
+
+.site-footer-entity {
+    font-size: 0.85rem;
+    opacity: 0.6;
+    margin-top: 0.25rem;
+    max-width: 44ch;
+}
+
+.site-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+    font-size: 0.9rem;
+}
+
+.site-footer-links a {
+    color: inherit;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.site-footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
