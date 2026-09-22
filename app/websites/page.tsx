@@ -79,25 +79,26 @@ export default function Websites() {
         </div>
       </section>
 
-      {/* The most persuasive thing available: real work, same market. */}
+      {/* What stands behind the offer: the work, not one client's logo. A name
+          a tradesman has never heard of proves nothing; years spent building
+          the systems businesses run on is something he can size up. */}
       <section className="section">
         <div className="container">
           <div className="card wsite-flagship">
-            <div className="wsite-flagship-label">The last one I built</div>
-            <h2 className="wsite-flagship-title">Latino Builders Co</h2>
+            <div className="wsite-flagship-label">Who is behind this</div>
+            <h2 className="wsite-flagship-title">
+              Over a decade building software and automations for businesses
+            </h2>
             <p className="wsite-flagship-body">
-              A general contractor in Greenville, South Carolina. Built bilingual in English
-              and Spanish, because a good share of their customers ask in Spanish. Launched,
-              live, and still running.
+              Most of what I do is behind the scenes — the systems a company runs its day
+              on. Quotes and invoices that send themselves, jobs tracked without anybody
+              retyping them, one piece of software made to talk to another. I have been
+              doing that for businesses for more than ten years.
             </p>
-            <a
-              href="https://latino-builders-nextjs.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="wsite-link"
-            >
-              Go and look at it →
-            </a>
+            <p className="wsite-flagship-body">
+              A one-page site for a two-man shop is the same craft pointed at a smaller
+              job, and it gets the same standard of work.
+            </p>
           </div>
         </div>
       </section>
