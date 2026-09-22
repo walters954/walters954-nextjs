@@ -220,3 +220,161 @@ a:hover {
 .slide-in-right {
   animation: slideInRight 0.6s ease-out;
 }
+
+/* ---------------------------------------------------------------------------
+   /websites — written for a different reader from the rest of this site.
+   A tradesman who was sent a link, not a developer or a hiring manager. Kept
+   plainer and larger-typed than the portfolio pages for that reason, while
+   still using the site's own tokens so it does not look bolted on.
+   --------------------------------------------------------------------------- */
+
+.wsite-hero {
+    padding-top: 7rem;
+    background: var(--background-secondary);
+}
+
+.wsite-eyebrow {
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-green-dark);
+    margin: 0 0 0.75rem;
+}
+
+.wsite-title {
+    font-size: clamp(2rem, 5.5vw, 3.25rem);
+    line-height: 1.1;
+    letter-spacing: -0.025em;
+    margin: 0 0 1.25rem;
+    max-width: 18ch;
+}
+
+.wsite-lead {
+    font-size: 1.15rem;
+    line-height: 1.65;
+    max-width: 58ch;
+    opacity: 0.85;
+    margin: 0 0 2rem;
+}
+
+.wsite-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.875rem;
+}
+
+.wsite-flagship {
+    border-left: 4px solid var(--primary-green);
+    padding: 2rem;
+}
+
+.wsite-flagship-label {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.55;
+}
+
+.wsite-flagship-title {
+    font-size: 1.6rem;
+    margin: 0.5rem 0 0.75rem;
+}
+
+.wsite-flagship-body {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    opacity: 0.85;
+    max-width: 62ch;
+    margin: 0 0 1.25rem;
+}
+
+.wsite-link {
+    color: var(--primary-green-dark);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.wsite-link:hover {
+    text-decoration: underline;
+}
+
+.wsite-alt {
+    background: var(--background-secondary);
+}
+
+.wsite-h2 {
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
+    letter-spacing: -0.02em;
+    margin: 0 0 1.25rem;
+}
+
+.wsite-body {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    max-width: 66ch;
+    opacity: 0.85;
+    margin: 0 0 1.25rem;
+}
+
+.wsite-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.wsite-figure {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-green-dark);
+}
+
+.wsite-flabel {
+    font-size: 0.9rem;
+    opacity: 0.6;
+    margin-top: 0.15rem;
+}
+
+.wsite-faq {
+    margin: 0;
+    max-width: 70ch;
+}
+
+.wsite-qa {
+    border-top: 1px solid rgba(128, 128, 128, 0.22);
+    padding: 1.35rem 0;
+}
+
+.wsite-q {
+    font-weight: 650;
+    font-size: 1.075rem;
+    margin-bottom: 0.45rem;
+}
+
+.wsite-a {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.7;
+    opacity: 0.82;
+}
+
+.wsite-cta {
+    background: var(--gradient-dark);
+    color: #f3f4f6;
+    text-align: center;
+}
+
+.wsite-cta-title {
+    font-size: clamp(1.6rem, 4vw, 2.25rem);
+    margin: 0 0 0.85rem;
+}
+
+.wsite-cta-desc {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 52ch;
+    margin: 0 auto 1.75rem;
+    opacity: 0.85;
+}

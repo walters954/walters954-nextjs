@@ -71,6 +71,26 @@ export default function Projects() {
       metrics: ['10+ Conferences', '5+ Cities', 'Technical Workshops'],
       link: null,
       featured: false
+    },
+    {
+      id: 7,
+      title: 'Latino Builders Co',
+      category: 'client',
+      description: 'Bilingual English/Spanish site for a Greenville, SC general contractor who had no web presence at all. Built, launched and maintained.',
+      tags: ['Next.js', 'i18n', 'Local SEO'],
+      metrics: ['Bilingual EN/ES', 'Structured Data', 'Live in Production'],
+      link: 'https://latino-builders-nextjs.vercel.app',
+      featured: true
+    },
+    {
+      id: 8,
+      title: 'Websites for Local Businesses',
+      category: 'client',
+      description: 'Finding local trades with no web presence, building them a site, and hosting it for a flat monthly fee. Prospecting, generation and billing are automated end to end.',
+      tags: ['Next.js', 'Stripe', 'Automation'],
+      metrics: ['$39/mo, No Contract', 'Same-Day Changes', 'Upstate South Carolina'],
+      link: '/websites',
+      featured: false
     }
   ];
 
@@ -79,7 +99,8 @@ export default function Projects() {
     { value: 'development', label: 'Development' },
     { value: 'content', label: 'Content Creation' },
     { value: 'education', label: 'Education' },
-    { value: 'community', label: 'Community' }
+    { value: 'community', label: 'Community' },
+    { value: 'client', label: 'Client Work' }
   ];
 
   const filteredProjects = filter === 'all' 
