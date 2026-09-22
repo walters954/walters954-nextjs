@@ -58,6 +58,12 @@ export default function Privacy() {
           cookies on those sites.
         </p>
         <p>
+          We also count how many times each of those pages has been opened, and when. That
+          is a running total and a list of times — no IP address, no browser, no location,
+          nothing that identifies who opened it. It tells the business owner that people are
+          looking at their site, and nothing about any particular visitor.
+        </p>
+        <p>
           That enquiry exists so it can be passed to the business you were trying to reach —
           they are the ones who will contact you. We hold it on their behalf. To have it
           deleted, email us and we will remove it.
